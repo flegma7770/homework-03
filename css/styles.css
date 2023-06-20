@@ -1,0 +1,220 @@
+/* page 1 */
+/* Main Style */
+body {
+    font-family: "Roboto", sans-serif;
+    background: var(--bg-white);
+    color: var(--color-grey)
+}
+
+:root {
+    --color-white: #f4f4fd;
+    --color-blue: #2E2F42;
+    --color-logo: #4D5AE5;
+    --color-grey: #434455;
+    --bg-white: #FFFFFF;
+    --hov-foc-cl: #404BBF;
+}
+
+/* Reset */
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* Header */
+.header {}
+
+.header-nav {}
+
+.nav-logo {
+    color: var(--color-logo);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.link {
+    text-decoration: none;
+}
+.nav-logo-studio {
+    color: var(--color-blue);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.list {
+    list-style: none;
+}
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--hov-foc-cl);
+}
+.nav-item {
+    color: var(--color-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.nav-item .link {
+    text-decoration: none;
+}
+.contacts-item {
+    color: var(--color-grey);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.adress {
+    font-style: normal;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+    color: var(--hov-foc-cl);
+}
+/* main section Hero */
+.section-hero {
+    background-color: var(--color-blue);
+}
+.hero-title {
+    color: var(--bg-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.hero-btn {
+    color: var(--bg-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #4D5AE5;
+    letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--hov-foc-cl);
+}
+.section-main {}
+
+.main-title {
+    color: var(--color-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.main-text {
+    color: var(--color-grey);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* middle section */
+
+.middle-title {
+    color: var(--color-blue);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.section-middle .list > .li {
+    background-color: var(--color-white);
+}
+.middle-img {}
+
+.section-team {
+    background-color: var(--color-white);
+}
+.our-team {
+    color: var(--color-blue);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+.team-photo {
+    background: var(--bg-white);
+}
+.team-name {
+    color: var(--color-blue);
+    background-color:  var(--bg-white);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-subtitle {
+    color: var(--color-grey);
+    background-color: var(--bg-white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* footer section */
+
+.footer {
+    background-color: var(--color-blue);
+}
+.footer-logo-studio {
+    color: var(--color-white);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.footer-text {
+    color: var(--color-white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Page 2 */
+
+/* main section */
+
+.main-section {}
+
+.list {}
+
+.main-btn {
+    color: var(--color-logo);
+    background-color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.main-btn:hover,
+.main-btn:focus {
+    background-color: var(--hov-foc-cl);
+    color: var(--bg-white);
+}
+button {
+    cursor: pointer;
+}
+.list {
+    text-decoration: none;
+}
+.main-img {}
