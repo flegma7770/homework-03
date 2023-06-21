@@ -42,6 +42,11 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 /* Base styles */
 
 .container {
@@ -65,7 +70,16 @@ button {
     padding: 24px 0;
 }
 
-.header-nav {}
+.header-container {
+    display: flex;
+    justify-content:space-between ;
+    
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .nav-logo {
     color: var(--color-logo);
@@ -75,6 +89,10 @@ button {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+    margin-right: 76px;
 }
 
 .nav-logo-studio {
@@ -96,8 +114,17 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
 .nav-item .link {
     text-decoration: none;
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 156px;
 }
 .contacts-item {
     color: var(--color-grey);
@@ -216,7 +243,7 @@ button {
 
 .footer {
     background-color: var(--color-blue);
-    padding-top: 101.5px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 .footer-logo-studio {
