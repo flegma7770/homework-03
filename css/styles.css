@@ -50,7 +50,7 @@ img {
 /* Base styles */
 
 .container {
-    width: 1158;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -148,9 +148,11 @@ img {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-btn {
     color: var(--bg-white);
@@ -167,7 +169,16 @@ img {
 .section-main {
     padding-top: 120px;
 }
-
+.main-title-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 156px;
+    margin-right: 156px;
+    gap: 24px;
+}
+.list-title-text {
+    width: 264px;
+}
 .main-title {
     color: var(--color-blue);
     font-weight: 500;
@@ -259,6 +270,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-top: 17.5px;
+    width: 264px;
+    margin-left: 156px;
 }
 
 /* Page 2 */
